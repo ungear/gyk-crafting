@@ -1,0 +1,799 @@
+{
+  "recipes": [
+    {
+      "result": "black_paint",
+      "ingredients": [
+        "graphite_powder",
+        "water"
+      ]
+    },
+    {
+      "result": "black_paint",
+      "ingredients": [
+        "ash",
+        "oil"
+      ]
+    },
+    {
+      "result": "black_paint",
+      "ingredients": [
+        "death_powder",
+        "water"
+      ]
+    },
+    {
+      "result": "white_paint",
+      "ingredients": [
+        "white_powder",
+        "oil"
+      ]
+    },
+    {
+      "result": "white_paint",
+      "ingredients": [
+        "alcohol",
+        "slowing_solution"
+      ]
+    },
+    {
+      "result": "white_paint",
+      "ingredients": [
+        "yellow_electro_powder",
+        "water"
+      ]
+    },
+    {
+      "result": "freshener",
+      "ingredients": [
+        "oil",
+        "order_solution"
+      ]
+    },
+    {
+      "result": "energy_potion",
+      "ingredients": [
+        "acceleration_powder",
+        "acceleration_solution"
+      ]
+    },
+    {
+      "result": "spices",
+      "ingredients": [
+        "salt",
+        "health_solution"
+      ]
+    },
+    {
+      "result": "energy_elixir",
+      "ingredients": [
+        "acceleration_powder",
+        "slowing_solution"
+      ]
+    },
+    {
+      "result": "energy_elixir",
+      "ingredients": [
+        "slowing_powder",
+        "acceleration_solution"
+      ]
+    },
+    {
+      "result": "dark_elixir",
+      "ingredients": [
+        "death_powder",
+        "blood"
+      ]
+    },
+    {
+      "result": "heal_potion",
+      "ingredients": [
+        "health_powder",
+        "chaos_solution"
+      ]
+    },
+    {
+      "result": "heal_potion",
+      "ingredients": [
+        "life_powder",
+        "health_solution"
+      ]
+    },
+    {
+      "result": "growth_enhancer",
+      "ingredients": [
+        "ash",
+        "life_solution"
+      ]
+    },
+    {
+      "result": "zombie_juice",
+      "ingredients": [
+        "health_powder",
+        "blood"
+      ]
+    },
+    {
+      "result": "brown_paint",
+      "ingredients": [
+        "slowing_powder",
+        "oil"
+      ]
+    },
+    {
+      "result": "blue_paint",
+      "ingredients": [
+        "acceleration_powder",
+        "oil"
+      ]
+    },
+    {
+      "result": "dark_green_paint",
+      "ingredients": [
+        "health_powder",
+        "oil"
+      ]
+    },
+    {
+      "result": "green_paint",
+      "ingredients": [
+        "order_powder",
+        "oil"
+      ]
+    },
+    {
+      "result": "dark_violet_paint",
+      "ingredients": [
+        "death_powder",
+        "oil"
+      ]
+    },
+    {
+      "result": "violet_paint",
+      "ingredients": [
+        "chaos_powder",
+        "oil"
+      ]
+    },
+    {
+      "result": "red_paint",
+      "ingredients": [
+        "toxic_powder",
+        "oil"
+      ]
+    },
+    {
+      "result": "yellow_paint",
+      "ingredients": [
+        "life_powder",
+        "oil"
+      ]
+    },
+    {
+      "result": "glue",
+      "ingredients": [
+        "health_powder",
+        "life_solution",
+        "chaos_extract"
+      ]
+    },
+    {
+      "result": "preservative",
+      "ingredients": [
+        "life_powder",
+        "slowing_solution",
+        "slowing_extract"
+      ]
+    },
+    {
+      "result": "preservative",
+      "ingredients": [
+        "slowing_powder",
+        "life_solution",
+        "slowing_extract"
+      ]
+    },
+    {
+      "result": "speed_potion",
+      "ingredients": [
+        "acceleration_powder",
+        "chaos_solution",
+        "blood"
+      ]
+    },
+    {
+      "result": "digestion_potion",
+      "ingredients": [
+        "health_powder",
+        "toxic_solution",
+        "acceleration_extract"
+      ]
+    },
+    {
+      "result": "restoring_potion",
+      "ingredients": [
+        "order_powder",
+        "health_solution",
+        "health_extract"
+      ]
+    },
+    {
+      "result": "protection_potion",
+      "ingredients": [
+        "order_powder",
+        "slowing_solution",
+        "slowing_extract"
+      ]
+    },
+    {
+      "result": "flavor_enhancer",
+      "ingredients": [
+        "ash",
+        "toxic_solution",
+        "life_extract"
+      ]
+    },
+    {
+      "result": "acid",
+      "ingredients": [
+        "toxic_powder",
+        "chaos_solution",
+        "toxic_extract"
+      ]
+    },
+    {
+      "result": "aromatizer",
+      "ingredients": [
+        "acceleration_powder",
+        "alcohol",
+        "life_extract"
+      ]
+    },
+    {
+      "result": "alkali",
+      "ingredients": [
+        "life_powder",
+        "death_solution",
+        "blood"
+      ]
+    },
+    {
+      "result": "tanning_agent",
+      "ingredients": [
+        "slowing_powder",
+        "death_solution",
+        "order_extract"
+      ]
+    },
+    {
+      "result": "balsamic_solution",
+      "ingredients": [
+        "chaos_powder",
+        "water",
+        "death_extract"
+      ]
+    },
+    {
+      "result": "rage_potion",
+      "ingredients": [
+        "chaos_powder",
+        "death_solution",
+        "toxic_extract"
+      ]
+    },
+    {
+      "result": "berserk_potion",
+      "ingredients": [
+        "toxic_powder",
+        "death_solution",
+        "death_extract"
+      ]
+    },
+    {
+      "result": "golden_elixir",
+      "ingredients": [
+        "gold_powder",
+        "toxic_solution",
+        "chaos_extract"
+      ]
+    },
+    {
+      "result": "golden_elixir",
+      "ingredients": [
+        "gold_powder",
+        "order_solution",
+        "health_extract"
+      ]
+    },
+    {
+      "result": "silver_elixir",
+      "ingredients": [
+        "silver_powder",
+        "order_solution",
+        "life_extract"
+      ]
+    },
+    {
+      "result": "silver_elixir",
+      "ingredients": [
+        "silver_powder",
+        "chaos_solution",
+        "order_extract"
+      ]
+    },
+    {
+      "result": "memory_tincture",
+      "ingredients": [
+        "memory_powder",
+        "silver_powder",
+        "gold_powder"
+      ]
+    },
+    {
+      "result": "acceleration_solution",
+      "ingredients": [
+        "honey"
+      ]
+    },
+    {
+      "result": "acceleration_solution",
+      "ingredients": [
+        "blue_jelly"
+      ]
+    },
+    {
+      "result": "chaos_solution",
+      "ingredients": [
+        "moth"
+      ]
+    },
+    {
+      "result": "chaos_solution",
+      "ingredients": [
+        "bat_wing"
+      ]
+    },
+    {
+      "result": "death_solution",
+      "ingredients": [
+        "dark_brain"
+      ]
+    },
+    {
+      "result": "death_solution",
+      "ingredients": [
+        "black_jelly"
+      ]
+    },
+    {
+      "result": "health_solution",
+      "ingredients": [
+        "carrot"
+      ]
+    },
+    {
+      "result": "health_solution",
+      "ingredients": [
+        "hiccup_grass"
+      ]
+    },
+    {
+      "result": "health_solution",
+      "ingredients": [
+        "cabbage"
+      ]
+    },
+    {
+      "result": "life_solution",
+      "ingredients": [
+        "brain"
+      ]
+    },
+    {
+      "result": "life_solution",
+      "ingredients": [
+        "maggot"
+      ]
+    },
+    {
+      "result": "life_solution",
+      "ingredients": [
+        "yellow_flower"
+      ]
+    },
+    {
+      "result": "order_solution",
+      "ingredients": [
+        "bee"
+      ]
+    },
+    {
+      "result": "order_solution",
+      "ingredients": [
+        "green_jelly"
+      ]
+    },
+    {
+      "result": "order_solution",
+      "ingredients": [
+        "white_flower"
+      ]
+    },
+    {
+      "result": "slowing_solution",
+      "ingredients": [
+        "beeswax"
+      ]
+    },
+    {
+      "result": "slowing_solution",
+      "ingredients": [
+        "hops"
+      ]
+    },
+    {
+      "result": "slowing_solution",
+      "ingredients": [
+        "fat"
+      ]
+    },
+    {
+      "result": "toxic_solution",
+      "ingredients": [
+        "orange_jelly"
+      ]
+    },
+    {
+      "result": "toxic_solution",
+      "ingredients": [
+        "red_mushroom"
+      ]
+    },
+    {
+      "result": "acceleration_powder",
+      "ingredients": [
+        "hemp"
+      ]
+    },
+    {
+      "result": "acceleration_powder",
+      "ingredients": [
+        "honey"
+      ]
+    },
+    {
+      "result": "chaos_powder",
+      "ingredients": [
+        "butterfly"
+      ]
+    },
+    {
+      "result": "chaos_powder",
+      "ingredients": [
+        "bat_wing"
+      ]
+    },
+    {
+      "result": "death_powder",
+      "ingredients": [
+        "dark_intestine"
+      ]
+    },
+    {
+      "result": "health_powder",
+      "ingredients": [
+        "pumpkin"
+      ]
+    },
+    {
+      "result": "health_powder",
+      "ingredients": [
+        "cabbage"
+      ]
+    },
+    {
+      "result": "health_powder",
+      "ingredients": [
+        "crop_waste"
+      ]
+    },
+    {
+      "result": "life_powder",
+      "ingredients": [
+        "intestine"
+      ]
+    },
+    {
+      "result": "life_powder",
+      "ingredients": [
+        "sulfur"
+      ]
+    },
+    {
+      "result": "order_powder",
+      "ingredients": [
+        "bee"
+      ]
+    },
+    {
+      "result": "slowing_powder",
+      "ingredients": [
+        "hops"
+      ]
+    },
+    {
+      "result": "slowing_powder",
+      "ingredients": [
+        "spider_web"
+      ]
+    },
+    {
+      "result": "toxic_powder",
+      "ingredients": [
+        "onion"
+      ]
+    },
+    {
+      "result": "toxic_powder",
+      "ingredients": [
+        "red_flower"
+      ]
+    },
+    {
+      "result": "white_powder",
+      "ingredients": [
+        "bone"
+      ]
+    },
+    {
+      "result": "white_powder",
+      "ingredients": [
+        "limestone"
+      ]
+    },
+    {
+      "result": "graphite_powder",
+      "ingredients": [
+        "graphite"
+      ]
+    },
+    {
+      "result": "gold_powder",
+      "ingredients": [
+        "gold_nugget"
+      ]
+    },
+    {
+      "result": "silver_powder",
+      "ingredients": [
+        "silver_nugget"
+      ]
+    },
+    {
+      "result": "electric_powder",
+      "ingredients": [
+        "eel"
+      ]
+    },
+    {
+      "result": "order_powder",
+      "ingredients": [
+        "faceted_emerald"
+      ]
+    },
+    {
+      "result": "slowing_powder",
+      "ingredients": [
+        "pyrite"
+      ]
+    },
+    {
+      "result": "acceleration_extract",
+      "ingredients": [
+        "hemp"
+      ]
+    },
+    {
+      "result": "acceleration_extract",
+      "ingredients": [
+        "blue_jelly"
+      ]
+    },
+    {
+      "result": "chaos_extract",
+      "ingredients": [
+        "moth"
+      ]
+    },
+    {
+      "result": "chaos_extract",
+      "ingredients": [
+        "butterfly"
+      ]
+    },
+    {
+      "result": "death_extract",
+      "ingredients": [
+        "black_jelly"
+      ]
+    },
+    {
+      "result": "death_extract",
+      "ingredients": [
+        "dark_heart"
+      ]
+    },
+    {
+      "result": "health_extract",
+      "ingredients": [
+        "lentils"
+      ]
+    },
+    {
+      "result": "health_extract",
+      "ingredients": [
+        "pumpkin"
+      ]
+    },
+    {
+      "result": "life_extract",
+      "ingredients": [
+        "heart"
+      ]
+    },
+    {
+      "result": "life_extract",
+      "ingredients": [
+        "maggot"
+      ]
+    },
+    {
+      "result": "life_extract",
+      "ingredients": [
+        "yellow_flower"
+      ]
+    },
+    {
+      "result": "order_extract",
+      "ingredients": [
+        "green_jelly"
+      ]
+    },
+    {
+      "result": "order_extract",
+      "ingredients": [
+        "white_flower"
+      ]
+    },
+    {
+      "result": "slowing_extract",
+      "ingredients": [
+        "beeswax"
+      ]
+    },
+    {
+      "result": "slowing_extract",
+      "ingredients": [
+        "spider_web"
+      ]
+    },
+    {
+      "result": "toxic_extract",
+      "ingredients": [
+        "onion"
+      ]
+    },
+    {
+      "result": "toxic_extract",
+      "ingredients": [
+        "orange_jelly"
+      ]
+    }
+  ],
+  "spriteCoords": {
+    "black_paint": "-864px -1008px",
+    "graphite_powder": "-360px -828px",
+    "water": "-0px -324px",
+    "ash": "-324px -828px",
+    "oil": "-0px -396px",
+    "death_powder": "-252px -828px",
+    "white_paint": "-828px -1008px",
+    "white_powder": "-396px -828px",
+    "alcohol": "-0px -360px",
+    "slowing_solution": "-72px -864px",
+    "yellow_electro_powder": "-576px -828px",
+    "freshener": "-792px -864px",
+    "order_solution": "-144px -864px",
+    "energy_potion": "-216px -936px",
+    "acceleration_powder": "-216px -828px",
+    "acceleration_solution": "-216px -864px",
+    "spices": "-612px -828px",
+    "salt": "-432px -828px",
+    "health_solution": "-180px -864px",
+    "energy_elixir": "-468px -864px",
+    "slowing_powder": "-72px -828px",
+    "dark_elixir": "-900px -864px",
+    "blood": "-396px -612px",
+    "heal_potion": "-36px -936px",
+    "health_powder": "-180px -828px",
+    "chaos_solution": "-288px -864px",
+    "life_powder": "-108px -828px",
+    "growth_enhancer": "-936px -864px",
+    "life_solution": "-108px -864px",
+    "zombie_juice": "-0px -936px",
+    "order_powder": "-144px -828px",
+    "chaos_powder": "-288px -828px",
+    "toxic_powder": "-36px -828px",
+    "glue": "-612px -864px",
+    "chaos_extract": "-288px -900px",
+    "preservative": "-648px -864px",
+    "slowing_extract": "-72px -900px",
+    "speed_potion": "-180px -936px",
+    "digestion_potion": "-144px -936px",
+    "toxic_solution": "-36px -864px",
+    "acceleration_extract": "-216px -900px",
+    "restoring_potion": "-252px -936px",
+    "health_extract": "-180px -900px",
+    "protection_potion": "-72px -936px",
+    "flavor_enhancer": "-720px -864px",
+    "life_extract": "-108px -900px",
+    "acid": "-576px -864px",
+    "toxic_extract": "-36px -900px",
+    "aromatizer": "-504px -864px",
+    "alkali": "-756px -864px",
+    "death_solution": "-252px -864px",
+    "tanning_agent": "-540px -864px",
+    "order_extract": "-144px -900px",
+    "balsamic_solution": "-684px -864px",
+    "death_extract": "-252px -900px",
+    "rage_potion": "-108px -936px",
+    "berserk_potion": "-324px -936px",
+    "golden_elixir": "-864px -864px",
+    "gold_powder": "-504px -828px",
+    "silver_elixir": "-828px -864px",
+    "silver_powder": "-468px -828px",
+    "memory_tincture": "-252px -1152px",
+    "memory_powder": "-216px -1152px",
+    "honey": "-468px -396px",
+    "blue_jelly": "-972px -360px",
+    "moth": "-720px -540px",
+    "bat_wing": "-900px -540px",
+    "dark_brain": "-504px -648px",
+    "black_jelly": "-1044px -360px",
+    "carrot": "-36px -360px",
+    "hiccup_grass": "-756px -504px",
+    "cabbage": "-108px -360px",
+    "brain": "-504px -612px",
+    "maggot": "-648px -540px",
+    "yellow_flower": "-720px -504px",
+    "bee": "-756px -540px",
+    "green_jelly": "-936px -360px",
+    "white_flower": "-684px -504px",
+    "beeswax": "-792px -540px",
+    "hops": "-252px -360px",
+    "fat": "-432px -612px",
+    "orange_jelly": "-1008px -360px",
+    "red_mushroom": "-540px -324px",
+    "hemp": "-828px -504px",
+    "butterfly": "-684px -540px",
+    "dark_intestine": "-576px -648px",
+    "pumpkin": "-216px -360px",
+    "crop_waste": "-900px -504px",
+    "intestine": "-576px -612px",
+    "sulfur": "-360px -648px",
+    "spider_web": "-864px -540px",
+    "onion": "-144px -360px",
+    "red_flower": "-648px -504px",
+    "bone": "-468px -612px",
+    "limestone": "-360px -576px",
+    "graphite": "-144px -576px",
+    "gold_nugget": "-144px -648px",
+    "silver_nugget": "-144px -612px",
+    "electric_powder": "-576px -828px",
+    "eel": "-648px -576px",
+    "faceted_emerald": "-288px -576px",
+    "pyrite": "-360px -612px",
+    "dark_heart": "-540px -648px",
+    "lentils": "-180px -360px",
+    "heart": "-540px -612px"
+  }
+}
