@@ -4,11 +4,16 @@
   
   const rootEl = document.getElementById('root');
   data.recipes.forEach(recipe => {
+    const recipeRow = createRecipeRow(recipe, data.spriteCoords, data.itemTitles);
+    rootEl.appendChild(recipeRow);
+  });
+
+  function createRecipeRow(recipe, spriteCoords, itemTitles){
     const recipeEl = document.createElement('div');
     recipeEl.classList.add('recipe');
 
     // recipe result
-    const resultEl = createRecipeItem(recipe.result, data.spriteCoords, data.itemTitles)
+    const resultEl = createRecipeItem(recipe.result, spriteCoords, itemTitles)
     recipeEl.appendChild(resultEl);
 
     const arrow = document.createElement('div');
@@ -17,12 +22,12 @@
 
     // recipe ingredients
     recipe.ingredients.forEach(ing => {
-      const ingEl = createRecipeItem(ing, data.spriteCoords, data.itemTitles);
+      const ingEl = createRecipeItem(ing, spriteCoords, itemTitles);
       recipeEl.appendChild(ingEl);
     })
-    
-    rootEl.appendChild(recipeEl);
-  });
+
+    return recipeEl;
+  }
 
   function createRecipeItem(itemId, spriteCoords, itemTitles) {
     const el = document.createElement('div');
@@ -30,6 +35,7 @@
     addSpriteIcon(el, itemId, spriteCoords);
     const itemTitle = itemTitles[itemId] || itemId;
     el.setAttribute('title', itemTitle);
+    el.dataset.id = itemId;
     return el;
   }
 
