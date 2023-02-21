@@ -10,3 +10,13 @@ body{
   height:34px;
   background-size:1222px auto;
 }
+#popup{
+  position: fixed;
+  background: white;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 10px;
+}
+.clickable-ingredient{
+  cursor: pointer;
+}
