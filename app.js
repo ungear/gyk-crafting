@@ -22,7 +22,7 @@
     recipeEl.appendChild(resultEl);
 
     const arrow = document.createElement('div');
-    arrow.innerText = "<=";
+    arrow.innerHTML = "<span><=</span>";
     recipeEl.appendChild(arrow);
 
     // recipe ingredients
@@ -61,8 +61,7 @@
     recipeRows.forEach(x => {
       popupEl.appendChild(x);
     });
-    const ingElRect = event.target.getBoundingClientRect();
-    popupEl.style.top = ingElRect.y + 40 + 'px';
-    popupEl.style.left = ingElRect.x + 'px';
+    popupEl.style.top = event.target.offsetTop + 34 + 'px';
+    popupEl.style.left = event.target.offsetLeft + 'px';
   }
 })()

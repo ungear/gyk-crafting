@@ -11,7 +11,7 @@ body{
   background-size:1222px auto;
 }
 #popup{
-  position: fixed;
+  position: absolute;
   background: white;
   border: 1px solid #000;
   border-radius: 5px;
