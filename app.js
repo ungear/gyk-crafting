@@ -14,10 +14,14 @@ import { Popup } from './popup.js';
 
   rootEl.querySelectorAll('.js-ingredient').forEach(x => {
     x.addEventListener('click', onIngredientClick.bind(null, data))
-  })  
+  });
+  rootEl.addEventListener('click', ()=>{
+    popup.hidePopup();
+  })
 
   function onIngredientClick(fullDataSet, event) {
     popup.hidePopup();
+    event.stopPropagation();
     const ingId = event.target.dataset.id;
     const recipesForItem =  fullDataSet.recipes.filter(r => r.result === ingId);
     if(recipesForItem.length === 0) return;
