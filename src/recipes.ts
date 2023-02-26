@@ -1,5 +1,6 @@
-// TODO: replace any with null
-export function createRecipeRow(recipe: any, spriteCoords: any, itemTitles: any){
+import { ItemTitlesMap, Recipe, SpriteCoordsMap } from "./types/recipes";
+
+export function createRecipeRow(recipe: Recipe, spriteCoords: SpriteCoordsMap, itemTitles: ItemTitlesMap): HTMLElement{
   const recipeEl = document.createElement('div');
   recipeEl.classList.add('recipe');
 
@@ -13,8 +14,7 @@ export function createRecipeRow(recipe: any, spriteCoords: any, itemTitles: any)
   recipeEl.appendChild(arrow);
 
   // recipe ingredients
-  // TODO: replace any with null
-  recipe.ingredients.forEach((ing: any) => {
+  recipe.ingredients.forEach(ing => {
     const ingEl = createRecipeItem(ing, spriteCoords, itemTitles);
     ingEl.classList.add('js-ingredient', 'clickable-ingredient');
     recipeEl.appendChild(ingEl);
@@ -22,8 +22,7 @@ export function createRecipeRow(recipe: any, spriteCoords: any, itemTitles: any)
   return recipeEl;
 }
 
-// TODO: replace any with null
-function createRecipeItem(itemId: any, spriteCoords: any, itemTitles: any) {
+function createRecipeItem(itemId: string, spriteCoords: SpriteCoordsMap, itemTitles: ItemTitlesMap): HTMLElement {
   const el = document.createElement('div');
   el.classList.add('item-sprite');
   addSpriteIcon(el, itemId, spriteCoords);
@@ -33,8 +32,7 @@ function createRecipeItem(itemId: any, spriteCoords: any, itemTitles: any) {
   return el;
 }
 
-// TODO: replace any with null
-function addSpriteIcon(el: any, itemId: any, spriteCoords: any){
+function addSpriteIcon(el: HTMLElement, itemId: string, spriteCoords: SpriteCoordsMap){
   const itemSpriteCoords = spriteCoords[itemId];
   if(itemSpriteCoords){
     el.style.backgroundPosition = itemSpriteCoords;

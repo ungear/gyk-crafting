@@ -1,4 +1,3 @@
-// TODO: replace any with null
 export function createRecipeRow(recipe, spriteCoords, itemTitles) {
     const recipeEl = document.createElement('div');
     recipeEl.classList.add('recipe');
@@ -10,15 +9,13 @@ export function createRecipeRow(recipe, spriteCoords, itemTitles) {
     arrow.innerHTML = "<span><=</span>";
     recipeEl.appendChild(arrow);
     // recipe ingredients
-    // TODO: replace any with null
-    recipe.ingredients.forEach((ing) => {
+    recipe.ingredients.forEach(ing => {
         const ingEl = createRecipeItem(ing, spriteCoords, itemTitles);
         ingEl.classList.add('js-ingredient', 'clickable-ingredient');
         recipeEl.appendChild(ingEl);
     });
     return recipeEl;
 }
-// TODO: replace any with null
 function createRecipeItem(itemId, spriteCoords, itemTitles) {
     const el = document.createElement('div');
     el.classList.add('item-sprite');
@@ -28,7 +25,6 @@ function createRecipeItem(itemId, spriteCoords, itemTitles) {
     el.dataset.id = itemId;
     return el;
 }
-// TODO: replace any with null
 function addSpriteIcon(el, itemId, spriteCoords) {
     const itemSpriteCoords = spriteCoords[itemId];
     if (itemSpriteCoords) {

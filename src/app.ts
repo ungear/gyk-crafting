@@ -1,14 +1,15 @@
 import { createRecipeRow } from './recipes.js';
 import { Popup } from './popup.js';
+import { RecipeSourceDataset } from './types/recipes';
 
 (async function(){
   const resp = await fetch('./result.json');
-  const data = await resp.json();
+  const data: RecipeSourceDataset = await resp.json();
   
   const rootEl = document.getElementById('root');
   const popup = new Popup();
-  // TODO: replace any with type
-  data.recipes.forEach((recipe: any) => {
+
+  data.recipes.forEach(recipe => {
     // TODO what if rootEl is null
     const recipeRow = createRecipeRow(recipe, data.spriteCoords, data.itemTitles);
     rootEl?.appendChild(recipeRow);
@@ -23,11 +24,12 @@ import { Popup } from './popup.js';
     popup.hidePopup();
   })
 
-  // TODO: replace any with types
-  function onIngredientClick(fullDataSet: any, event: any) {
+  function onIngredientClick(fullDataSet: RecipeSourceDataset, event: Event) {
     popup.hidePopup();
     event.stopPropagation();
-    const ingId = event.target.dataset.id;
+    const targetEl = event.target as HTMLDivElement;
+    const ingId = targetEl.dataset.id;
+    if(!ingId) return;
     const recipesForItem =  fullDataSet.recipes.filter((r: any) => r.result === ingId);
     if(recipesForItem.length === 0) return;
     
@@ -36,7 +38,7 @@ import { Popup } from './popup.js';
     popup.showPopup({
       title: fullDataSet.itemTitles[ingId],
       recipeRows,
-      targetEl: event.target
+      targetEl,
     })
   }
 })()

@@ -1,6 +1,5 @@
 export class Popup {
     templateId = 'popup-template';
-    // TODO: replace any with types
     showPopup({ title, recipeRows, targetEl }) {
         // remove existing popup
         const existingPopup = document.querySelector('.popup');

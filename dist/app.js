@@ -5,8 +5,7 @@ import { Popup } from './popup.js';
     const data = await resp.json();
     const rootEl = document.getElementById('root');
     const popup = new Popup();
-    // TODO: replace any with type
-    data.recipes.forEach((recipe) => {
+    data.recipes.forEach(recipe => {
         // TODO what if rootEl is null
         const recipeRow = createRecipeRow(recipe, data.spriteCoords, data.itemTitles);
         rootEl?.appendChild(recipeRow);
@@ -19,11 +18,13 @@ import { Popup } from './popup.js';
     rootEl?.addEventListener('click', () => {
         popup.hidePopup();
     });
-    // TODO: replace any with types
     function onIngredientClick(fullDataSet, event) {
         popup.hidePopup();
         event.stopPropagation();
-        const ingId = event.target.dataset.id;
+        const targetEl = event.target;
+        const ingId = targetEl.dataset.id;
+        if (!ingId)
+            return;
         const recipesForItem = fullDataSet.recipes.filter((r) => r.result === ingId);
         if (recipesForItem.length === 0)
             return;
@@ -31,7 +32,7 @@ import { Popup } from './popup.js';
         popup.showPopup({
             title: fullDataSet.itemTitles[ingId],
             recipeRows,
-            targetEl: event.target
+            targetEl,
         });
     }
 })();
