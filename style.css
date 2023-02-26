@@ -4,6 +4,11 @@ body{
 .recipe{
   display: flex;
 }
+.recipe__arrow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .item-sprite{
   background-image: url('./itemSprite.png');
   width:34px;

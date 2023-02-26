@@ -7,6 +7,7 @@ export function createRecipeRow(recipe, spriteCoords, itemTitles){
   recipeEl.appendChild(resultEl);
 
   const arrow = document.createElement('div');
+  arrow.classList.add("recipe__arrow");
   arrow.innerHTML = "<span><=</span>";
   recipeEl.appendChild(arrow);
 
