@@ -1,16 +1,19 @@
 export class Popup{
-  templateId = 'popup-template';
+  private readonly templateId = 'popup-template';
 
-  showPopup({title, recipeRows, targetEl}){
+  // TODO: replace any with types
+  showPopup({title, recipeRows, targetEl}: {title: any, recipeRows: any, targetEl: any}){
     // remove existing popup
     const existingPopup = document.querySelector('.popup');
     if(existingPopup) existingPopup.remove();
 
     // generate new popup using the template and passed data
-    const popupContent = document.querySelector(`#${this.templateId}`).content.firstElementChild.cloneNode(true);
+    // TODO: what if querySelector() is null
+    const popupContent = (document.querySelector(`#${this.templateId}`) as any)?.content.firstElementChild.cloneNode(true);
     popupContent.querySelector('.popup__header').textContent = title;
     const popupBody = popupContent.querySelector('.popup__body');
-    recipeRows.forEach(x => {
+    // TODO: replace any with type
+    recipeRows.forEach((x: any) => {
       popupBody.appendChild(x);
     });
     document.body.appendChild(popupContent);

@@ -1,0 +1,19 @@
+{
+  "name": "gyk-crafting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ungear/gyk-crafting.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ungear/gyk-crafting/issues"
+  },
+  "homepage": "https://github.com/ungear/gyk-crafting#readme"
+}

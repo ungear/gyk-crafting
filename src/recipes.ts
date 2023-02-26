@@ -1,4 +1,5 @@
-export function createRecipeRow(recipe, spriteCoords, itemTitles){
+// TODO: replace any with null
+export function createRecipeRow(recipe: any, spriteCoords: any, itemTitles: any){
   const recipeEl = document.createElement('div');
   recipeEl.classList.add('recipe');
 
@@ -12,7 +13,8 @@ export function createRecipeRow(recipe, spriteCoords, itemTitles){
   recipeEl.appendChild(arrow);
 
   // recipe ingredients
-  recipe.ingredients.forEach(ing => {
+  // TODO: replace any with null
+  recipe.ingredients.forEach((ing: any) => {
     const ingEl = createRecipeItem(ing, spriteCoords, itemTitles);
     ingEl.classList.add('js-ingredient', 'clickable-ingredient');
     recipeEl.appendChild(ingEl);
@@ -20,7 +22,8 @@ export function createRecipeRow(recipe, spriteCoords, itemTitles){
   return recipeEl;
 }
 
-function createRecipeItem(itemId, spriteCoords, itemTitles) {
+// TODO: replace any with null
+function createRecipeItem(itemId: any, spriteCoords: any, itemTitles: any) {
   const el = document.createElement('div');
   el.classList.add('item-sprite');
   addSpriteIcon(el, itemId, spriteCoords);
@@ -30,7 +33,8 @@ function createRecipeItem(itemId, spriteCoords, itemTitles) {
   return el;
 }
 
-function addSpriteIcon(el, itemId, spriteCoords){
+// TODO: replace any with null
+function addSpriteIcon(el: any, itemId: any, spriteCoords: any){
   const itemSpriteCoords = spriteCoords[itemId];
   if(itemSpriteCoords){
     el.style.backgroundPosition = itemSpriteCoords;
