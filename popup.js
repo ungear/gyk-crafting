@@ -17,4 +17,8 @@ export class Popup{
     popupContent.style.top = targetEl.offsetTop + 34 + 'px';
     popupContent.style.left = targetEl.offsetLeft + 'px';
   }
+
+  hidePopup(){
+    document.querySelector('.popup')?.remove();
+  }
 }

@@ -17,6 +17,7 @@ import { Popup } from './popup.js';
   })  
 
   function onIngredientClick(fullDataSet, event) {
+    popup.hidePopup();
     const ingId = event.target.dataset.id;
     const recipesForItem =  fullDataSet.recipes.filter(r => r.result === ingId);
     if(recipesForItem.length === 0) return;
