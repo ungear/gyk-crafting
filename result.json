@@ -38,7 +38,7 @@
     {
       "result": "white_paint",
       "ingredients": [
-        "yellow_electro_powder",
+        "electric_powder",
         "water"
       ]
     },
@@ -687,6 +687,294 @@
       "ingredients": [
         "orange_jelly"
       ]
+    },
+    {
+      "result": "health_extract",
+      "ingredients": [
+        "nori"
+      ]
+    },
+    {
+      "result": "boost_fertilizer_i",
+      "ingredients": [
+        "peat",
+        "energy_elixir"
+      ]
+    },
+    {
+      "result": "boost_fertilizer_ii",
+      "ingredients": [
+        "peat",
+        "energy_elixir"
+      ]
+    },
+    {
+      "result": "quality_fertilizer_i",
+      "ingredients": [
+        "peat",
+        "growth_enhancer"
+      ]
+    },
+    {
+      "result": "quality_fertilizer_ii",
+      "ingredients": [
+        "peat",
+        "flavor_enhancer"
+      ]
+    },
+    {
+      "result": "paper_glop",
+      "ingredients": [
+        "bucket_of_clear_water",
+        "wheat"
+      ]
+    },
+    {
+      "result": "bucket_of_blood",
+      "ingredients": [
+        "flitch",
+        "blood"
+      ]
+    },
+    {
+      "result": "alchemists_bag",
+      "ingredients": [
+        "skin",
+        "complex_iron_parts",
+        "tanning_agent"
+      ]
+    },
+    {
+      "result": "farmer%27s_bag",
+      "ingredients": [
+        "skin",
+        "complex_iron_parts",
+        "tanning_agent"
+      ]
+    },
+    {
+      "result": "fishermans_bag",
+      "ingredients": [
+        "skin",
+        "complex_iron_parts",
+        "tanning_agent"
+      ]
+    },
+    {
+      "result": "tool_bag",
+      "ingredients": [
+        "skin",
+        "complex_iron_parts",
+        "tanning_agent"
+      ]
+    },
+    {
+      "result": "potion_bag",
+      "ingredients": [
+        "skin",
+        "steel_parts",
+        "tanning_agent"
+      ]
+    },
+    {
+      "result": "builders_bag",
+      "ingredients": [
+        "skin",
+        "steel_parts",
+        "tanning_agent"
+      ]
+    },
+    {
+      "result": "food_bag",
+      "ingredients": [
+        "skin",
+        "steel_parts",
+        "tanning_agent"
+      ]
+    },
+    {
+      "result": "universal_bag",
+      "ingredients": [
+        "skin",
+        "complex_iron_parts",
+        "tanning_agent"
+      ]
+    },
+    {
+      "result": "big_universal_bag",
+      "ingredients": [
+        "skin",
+        "steel_parts",
+        "tanning_agent"
+      ]
+    },
+    {
+      "result": "ink",
+      "ingredients": [
+        "conical_flasks",
+        "water",
+        "black_paint"
+      ]
+    },
+    {
+      "result": "pen_and_ink",
+      "ingredients": [
+        "feather",
+        "ink"
+      ]
+    },
+    {
+      "result": "pigskin_paper",
+      "ingredients": [
+        "skin"
+      ]
+    },
+    {
+      "result": "pigskin_paper",
+      "ingredients": [
+        "bat_wing"
+      ]
+    },
+    {
+      "result": "clean_paper",
+      "ingredients": [
+        "pigskin_paper"
+      ]
+    },
+    {
+      "result": "softcover",
+      "ingredients": [
+        "pigskin_paper"
+      ]
+    },
+    {
+      "result": "hard_cover",
+      "ingredients": [
+        "softcover",
+        "tanning_agent",
+        "faith"
+      ]
+    },
+    {
+      "result": "hard_cover",
+      "ingredients": [
+        "hard_cover",
+        "steel_parts",
+        "faith"
+      ]
+    },
+    {
+      "result": "hard_cover",
+      "ingredients": [
+        "hard_cover",
+        "gold_jewelry_details"
+      ]
+    },
+    {
+      "result": "hemp_rope",
+      "ingredients": [
+        "hemp"
+      ]
+    },
+    {
+      "result": "candle",
+      "ingredients": [
+        "fat",
+        "beeswax",
+        "hemp_rope"
+      ]
+    },
+    {
+      "result": "candle",
+      "ingredients": [
+        "fat",
+        "beeswax",
+        "white_paint"
+      ]
+    },
+    {
+      "result": "candle",
+      "ingredients": [
+        "beeswax",
+        "white_paint",
+        "hemp_rope"
+      ]
+    },
+    {
+      "result": "incense",
+      "ingredients": [
+        "freshener"
+      ]
+    },
+    {
+      "result": "incense_ii",
+      "ingredients": [
+        "aromatizer"
+      ]
+    },
+    {
+      "result": "lye_injection",
+      "ingredients": [
+        "alkali",
+        "water",
+        "conical_flasks"
+      ]
+    },
+    {
+      "result": "acid_injection",
+      "ingredients": [
+        "acid",
+        "water",
+        "conical_flasks"
+      ]
+    },
+    {
+      "result": "glue_injection",
+      "ingredients": [
+        "glue",
+        "water",
+        "conical_flasks"
+      ]
+    },
+    {
+      "result": "dark_injection",
+      "ingredients": [
+        "dark_elixir",
+        "water",
+        "conical_flasks"
+      ]
+    },
+    {
+      "result": "preservative_injection",
+      "ingredients": [
+        "preservative",
+        "water",
+        "conical_flasks"
+      ]
+    },
+    {
+      "result": "restore_injection",
+      "ingredients": [
+        "balsamic_solution",
+        "water",
+        "conical_flasks"
+      ]
+    },
+    {
+      "result": "silver_injection",
+      "ingredients": [
+        "silver_elixir",
+        "water",
+        "conical_flasks"
+      ]
+    },
+    {
+      "result": "gold_injection",
+      "ingredients": [
+        "golden_elixir",
+        "water",
+        "conical_flasks"
+      ]
     }
   ],
   "spriteCoords": {
@@ -700,7 +988,6 @@
     "white_powder": "-396px -828px",
     "alcohol": "-0px -360px",
     "slowing_solution": "-72px -864px",
-    "yellow_electro_powder": "-576px -828px",
     "freshener": "-792px -864px",
     "order_solution": "-144px -864px",
     "energy_potion": "-216px -936px",
@@ -794,7 +1081,47 @@
     "pyrite": "-360px -612px",
     "dark_heart": "-540px -648px",
     "lentils": "-180px -360px",
-    "heart": "-540px -612px"
+    "heart": "-540px -612px",
+    "nori": "-792px -396px",
+    "boost_fertilizer_i": "-1080px -504px",
+    "peat": "-936px -504px",
+    "boost_fertilizer_ii": "-1116px -504px",
+    "quality_fertilizer_i": "-1152px -504px",
+    "quality_fertilizer_ii": "-1188px -504px",
+    "paper_glop": "-1044px -432px",
+    "bucket_of_clear_water": "-720px -432px",
+    "wheat": "-324px -360px",
+    "bucket_of_blood": "-756px -432px",
+    "flitch": "-180px -504px",
+    "alchemists_bag": "-900px -720px",
+    "skin": "-432px -648px",
+    "complex_iron_parts": "-324px -540px",
+    "farmer%27s_bag": "-828px -720px",
+    "fishermans_bag": "-864px -720px",
+    "tool_bag": "-792px -720px",
+    "steel_parts": "-216px -576px",
+    "ink": "-972px -1008px",
+    "conical_flasks": "-468px -504px",
+    "pen_and_ink": "-1008px -1008px",
+    "feather": "-900px -1008px",
+    "pigskin_paper": "-0px -1008px",
+    "clean_paper": "-360px -1008px",
+    "softcover": "-1152px -1008px",
+    "hard_cover": "-0px -1044px",
+    "faith": "-648px -684px",
+    "gold_jewelry_details": "-216px -648px",
+    "hemp_rope": "-864px -504px",
+    "candle": "-288px -684px",
+    "incense": "-540px -684px",
+    "incense_ii": "-576px -684px",
+    "lye_injection": "-684px -900px",
+    "acid_injection": "-468px -900px",
+    "glue_injection": "-504px -900px",
+    "dark_injection": "-900px -900px",
+    "preservative_injection": "-540px -900px",
+    "restore_injection": "-576px -900px",
+    "silver_injection": "-792px -900px",
+    "gold_injection": "-864px -900px"
   },
   "itemTitles": {
     "black_paint": "Black paint",
@@ -807,7 +1134,6 @@
     "white_powder": "White powder",
     "alcohol": "Alcohol",
     "slowing_solution": "Slowing solution",
-    "yellow_electro_powder": "Yellow electro powder",
     "freshener": "Freshener",
     "order_solution": "Order solution",
     "energy_potion": "Energy potion",
@@ -909,6 +1235,51 @@
     "pyrite": "Pyrite",
     "dark_heart": "Dark heart",
     "lentils": "Lentils",
-    "heart": "Heart"
+    "heart": "Heart",
+    "nori": "Nori",
+    "boost_fertilizer_i": "Boost fertilizer I",
+    "peat": "Peat",
+    "boost_fertilizer_ii": "Boost fertilizer II",
+    "quality_fertilizer_i": "Quality fertilizer I",
+    "quality_fertilizer_ii": "Quality fertilizer II",
+    "paper_glop": "Paper glop",
+    "bucket_of_clear_water": "Bucket of clear water",
+    "wheat": "Wheat",
+    "bucket_of_blood": "Bucket of blood",
+    "flitch": "Flitch",
+    "alchemists_bag": "Alchemist's bag",
+    "skin": "Skin",
+    "complex_iron_parts": "Complex iron parts",
+    "farmer%27s_bag": "Farmer's bag",
+    "fishermans_bag": "Fisherman's bag",
+    "tool_bag": "Tool bag",
+    "potion_bag": "Potion bag",
+    "steel_parts": "Steel parts",
+    "builders_bag": "Builder's bag",
+    "food_bag": "Food bag",
+    "universal_bag": "Universal bag",
+    "big_universal_bag": "Big universal bag",
+    "ink": "Ink",
+    "conical_flasks": "Conical flasks",
+    "pen_and_ink": "Pen and ink",
+    "feather": "Feather",
+    "pigskin_paper": "Pigskin paper",
+    "clean_paper": "Clean paper",
+    "softcover": "Softcover",
+    "hard_cover": "Hard cover",
+    "faith": "Faith",
+    "gold_jewelry_details": "Gold jewelry details",
+    "hemp_rope": "Hemp rope",
+    "candle": "Candle",
+    "incense": "Incense",
+    "incense_ii": "Incense II",
+    "lye_injection": "Lye injection",
+    "acid_injection": "Acid injection",
+    "glue_injection": "Glue injection",
+    "dark_injection": "Dark injection",
+    "preservative_injection": "Preservative injection",
+    "restore_injection": "Restore injection",
+    "silver_injection": "Silver injection",
+    "gold_injection": "Gold injection"
   }
 }
