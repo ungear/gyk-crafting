@@ -1,6 +1,7 @@
 import { createRecipeRow } from './recipes.js';
 import { Popup } from './popup.js';
 (async function () {
+    console.log('UPDATED');
     const resp = await fetch('./result.json');
     const data = await resp.json();
     const rootEl = document.getElementById('root');
