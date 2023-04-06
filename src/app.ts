@@ -3,6 +3,7 @@ import { Popup } from './popup.js';
 import { RecipeSourceDataset } from './types/recipes';
 
 (async function(){
+  console.log('UPDATED');
   const resp = await fetch('./result.json');
   const data: RecipeSourceDataset = await resp.json();
   
