@@ -23,5 +23,5 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: .
+          folder: dist
       - run: echo "🍏 This job's status is ${{ job.status }}."

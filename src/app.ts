@@ -1,12 +1,13 @@
-import { createRecipeRow } from './recipes.js';
-import { Popup } from './popup.js';
+import { createRecipeRow } from './recipes';
+import { Popup } from './popup';
 import { RecipeSourceDataset } from './types/recipes';
+import data from '../result.json';
 
 (async function(){
-  console.log('UPDATED');
-  const resp = await fetch('./result.json');
-  const data: RecipeSourceDataset = await resp.json();
-  
+  // Recipes data are hardcoded so far
+  // const resp = await fetch('./result.json');
+  // const data: RecipeSourceDataset = await resp.json();
+
   const rootEl = document.getElementById('root');
   const popup = new Popup();
 
@@ -33,7 +34,7 @@ import { RecipeSourceDataset } from './types/recipes';
     if(!ingId) return;
     const recipesForItem =  fullDataSet.recipes.filter((r: any) => r.result === ingId);
     if(recipesForItem.length === 0) return;
-    
+
     const recipeRows = recipesForItem.map((x: any) => createRecipeRow(x, fullDataSet.spriteCoords, fullDataSet.itemTitles))
 
     popup.showPopup({
@@ -43,3 +44,4 @@ import { RecipeSourceDataset } from './types/recipes';
     })
   }
 })()
+
