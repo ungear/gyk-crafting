@@ -10,7 +10,7 @@ body{
   align-items: center;
 }
 .item-sprite{
-  background-image: url('./itemSprite.png');
+  background-image: url('./itemSprite-3.png');
   width:34px;
   height:34px;
   background-size:1222px auto;
