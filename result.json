@@ -885,7 +885,7 @@
       ]
     },
     {
-      "result": "candle",
+      "result": "candle2",
       "ingredients": [
         "fat",
         "beeswax",
@@ -893,7 +893,7 @@
       ]
     },
     {
-      "result": "candle",
+      "result": "candle3",
       "ingredients": [
         "beeswax",
         "white_paint",
@@ -1125,6 +1125,8 @@
     "gold_jewelry_details": "-216px -648px",
     "hemp_rope": "-864px -504px",
     "candle": "-288px -684px",
+    "candle2": "-360px -684px",
+    "candle3": "-396px -684px",
     "incense": "-540px -684px",
     "incense_ii": "-576px -684px",
     "lye_injection": "-684px -900px",
@@ -1284,6 +1286,8 @@
     "gold_jewelry_details": "Gold jewelry details",
     "hemp_rope": "Hemp rope",
     "candle": "Candle",
+    "candle2": "Candle",
+    "candle3": "Candle",
     "incense": "Incense",
     "incense_ii": "Incense II",
     "lye_injection": "Lye injection",
