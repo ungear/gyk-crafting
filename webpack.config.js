@@ -33,6 +33,7 @@ module.exports = {
       patterns: [
         { from: path.resolve(__dirname, 'style.css'), to: path.resolve(__dirname, './dist/style.css') },
         { from: path.resolve(__dirname, 'itemSprite-6.png'), to: path.resolve(__dirname, './dist/itemSprite-6.png') },
+        { from: path.resolve(__dirname, 'favicon.png'), to: path.resolve(__dirname, './dist/favicon.png') },
       ],
     }),
   ],
