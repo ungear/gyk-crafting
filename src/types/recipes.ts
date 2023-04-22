@@ -16,3 +16,9 @@ export type RecipeSourceDataset = {
   spriteCoords: SpriteCoordsMap,
   itemTitles: ItemTitlesMap
 }
+
+export type CraftTree = {
+  recipes: Recipe[],
+  spriteCoords: SpriteCoordsMap,
+  itemTitles: ItemTitlesMap,
+}

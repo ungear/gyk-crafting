@@ -1,12 +1,14 @@
 import { createRecipeRow } from './recipes';
 import { Popup } from './popup';
 import { RecipeSourceDataset } from './types/recipes';
+import { Recipe} from './types/recipes';
 import data from '../result.json';
+
 
 (async function(){
   // Recipes data are hardcoded so far
-  // const resp = await fetch('./result.json');
-  // const data: RecipeSourceDataset = await resp.json();
+  //const resp = await fetch('./result.json');
+  //const data: RecipeSourceDataset = await resp.json();
 
   const listEl = document.querySelector('.js-list');
   const popup = new Popup();
