@@ -8,21 +8,18 @@ import data from '../result.json';
   // const resp = await fetch('./result.json');
   // const data: RecipeSourceDataset = await resp.json();
 
-  const rootEl = document.getElementById('root');
+  const listEl = document.querySelector('.js-list');
   const popup = new Popup();
 
   data.recipes.forEach(recipe => {
-    // TODO what if rootEl is null
     const recipeRow = createRecipeRow(recipe, data.spriteCoords, data.itemTitles);
-    rootEl?.appendChild(recipeRow);
+    listEl?.appendChild(recipeRow);
   });
 
-  // TODO what if rootEl is null
-  rootEl?.querySelectorAll('.js-ingredient').forEach(x => {
+  listEl?.querySelectorAll('.js-ingredient').forEach(x => {
     x.addEventListener('click', onIngredientClick.bind(null, data))
   });
-  // TODO what if rootEl is null
-  rootEl?.addEventListener('click', ()=>{
+  listEl?.addEventListener('click', ()=>{
     popup.hidePopup();
   })
 
