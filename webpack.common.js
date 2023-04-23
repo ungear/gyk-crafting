@@ -36,11 +36,5 @@ module.exports = {
         { from: path.resolve(__dirname, 'favicon.png'), to: path.resolve(__dirname, './dist/favicon.png') },
       ],
     }),
-  ],
-
-  mode: 'development',
-  devtool: 'inline-source-map',
-  devServer: {
-    static: './dist',
-  },
+  ]
 };
