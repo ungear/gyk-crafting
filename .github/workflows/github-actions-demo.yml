@@ -21,7 +21,7 @@ jobs:
       - name: Build App
         run: npm run build
       - name: Echo creds
-        run: aws s3 cp ./dist s3://$S3BUCKETNAME --recursive
+        run: aws s3 cp ./dist s3://${{ vars.S3BUCKETNAME }} --recursive
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
