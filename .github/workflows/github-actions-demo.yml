@@ -1,5 +1,5 @@
-name: GitHub Actions Demo
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+name: Build and Publish 
+run-name: ${{ github.actor }} is buildong and publishing
 on:
   push:
     branches:
@@ -20,7 +20,7 @@ jobs:
         run: npm install
       - name: Build App
         run: npm run build
-      - name: Echo creds
+      - name: Upload dist to S3
         run: aws s3 cp ./dist s3://${{ vars.S3BUCKETNAME }} --recursive
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
@@ -30,4 +30,3 @@ jobs:
       #   uses: JamesIves/github-pages-deploy-action@v4
       #   with:
       #     folder: dist
-      - run: echo "🍏 This job's status is ${{ job.status }}."
