@@ -20,6 +20,11 @@ jobs:
         run: npm install
       - name: Build App
         run: npm run build
+      - name: Echo creds
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        run: echo "%AWS_ACCESS_KEY_ID%"
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
