@@ -9,6 +9,9 @@ body{
   justify-content: center;
   align-items: center;
 }
+.recipe--hidden{
+  display:none;
+}
 .item-sprite{
   background-image: url('./itemSprite-6.png');
   width:34px;

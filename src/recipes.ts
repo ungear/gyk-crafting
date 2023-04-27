@@ -2,10 +2,11 @@ import { ItemTitlesMap, Recipe, SpriteCoordsMap } from "./types/recipes";
 
 export function createRecipeRow(recipe: Recipe, spriteCoords: SpriteCoordsMap, itemTitles: ItemTitlesMap): HTMLElement{
   const recipeEl = document.createElement('div');
-  recipeEl.classList.add('recipe');
+  recipeEl.classList.add('recipe', 'js-recipeRow');
 
   // recipe result
-  const resultEl = createRecipeItem(recipe.result, spriteCoords, itemTitles)
+  const resultEl = createRecipeItem(recipe.result, spriteCoords, itemTitles);
+  resultEl.classList.add('js-result');
   recipeEl.appendChild(resultEl);
 
   const arrow = document.createElement('div');
