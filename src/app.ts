@@ -11,17 +11,20 @@ import data from '../result.json';
   //const data: RecipeSourceDataset = await resp.json();
 
   const listEl = document.querySelector('.js-list');
+  if(!listEl) throw new Error("The recipes list root element not found");
+
   const popup = new Popup();
 
   data.recipes.forEach(recipe => {
     const recipeRow = createRecipeRow(recipe, data.spriteCoords, data.itemTitles);
-    listEl?.appendChild(recipeRow);
+    listEl.appendChild(recipeRow);
   });
 
-  listEl?.querySelectorAll('.js-ingredient').forEach(x => {
+  listEl.querySelectorAll('.js-ingredient').forEach(x => {
     x.addEventListener('click', onIngredientClick.bind(null, data))
   });
-  listEl?.addEventListener('click', ()=>{
+  
+  listEl.addEventListener('click', ()=>{
     popup.hidePopup();
   })
 
