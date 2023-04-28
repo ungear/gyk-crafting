@@ -32,7 +32,7 @@ import data from '../result.json';
   if(!searchBar) throw new Error("The searchbar element not found");
   searchBar.addEventListener('input', onSearchbarTermChanged)
 
-  //TODO: set correct typing for argument
+  // TODO: set correct typing for argument
   function onSearchbarTermChanged(event: any){
     const searchTerm: string | null = event.target.value;
     // show all recipes if the term is too short
