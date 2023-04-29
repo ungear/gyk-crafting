@@ -32,3 +32,9 @@ body{
 .clickable-ingredient{
   cursor: pointer;
 }
+.searchbar{
+  border: 1px solid black;
+  border-radius: 3px;
+  background: white;
+  font-size: 1.1em;
+}
