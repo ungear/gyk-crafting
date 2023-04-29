@@ -7,7 +7,7 @@ import data from '../result.json';
 
 (async function(){
   // Recipes data are hardcoded so far
-  //const resp = await fetch('./result.json');
+  // const resp = await fetch('./result.json');
   //const data: RecipeSourceDataset = await resp.json();
 
   const listEl = document.querySelector('.js-list');
