@@ -32,7 +32,7 @@ module.exports = {
     new CopyPlugin({
       patterns: [
         { from: path.resolve(__dirname, 'style.css'), to: path.resolve(__dirname, './dist/style.css') },
-        { from: path.resolve(__dirname, 'itemSprite-6.png'), to: path.resolve(__dirname, './dist/itemSprite-6.png') },
+        { from: path.resolve(__dirname, 'itemSprite-7.png'), to: path.resolve(__dirname, './dist/itemSprite-7.png') },
         { from: path.resolve(__dirname, 'favicon.png'), to: path.resolve(__dirname, './dist/favicon.png') },
         { from: path.resolve(__dirname, 'robots.txt'), to: path.resolve(__dirname, './dist/robots.txt') },
       ],

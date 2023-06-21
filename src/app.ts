@@ -5,10 +5,23 @@ import { Recipe} from './types/recipes';
 import data from '../result.json';
 
 
+const ICONS_Y_COORD_DELTA = 324;
+
 (async function(){
   // Recipes data are hardcoded so far
   // const resp = await fetch('./result.json');
   //const data: RecipeSourceDataset = await resp.json();
+
+  // the sptite image has been modified to reduce size
+  // so the origina coords have to be changed accordingly
+  Object.keys(data.spriteCoords).forEach(itemId=> {
+    const coords = (data.spriteCoords as any)[itemId];
+    const [xCoods, yCoord] = coords.split(' ');
+    if(!yCoord) return;
+    const yCoordsNum =  Number(yCoord.replace('px', ''));
+    const updatedYCoord = yCoordsNum + ICONS_Y_COORD_DELTA;
+    (data.spriteCoords as any)[itemId] = xCoods + ' ' + updatedYCoord + 'px';
+  })
 
   const listEl = document.querySelector('.js-list');
   if(!listEl) throw new Error("The recipes list root element not found");
